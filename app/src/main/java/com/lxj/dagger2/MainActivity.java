@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
     @Inject
     Weight weight1;
 
-    @Inject
-    App app;
+//    @Inject
+//    App app;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         L.d(weight.toString());
         L.d(weight1.toString());
 
-        app.show();
+//        app.show();
+        App.getAppComponent().getApp().show();
     }
 }

@@ -6,7 +6,7 @@ import com.lxj.dagger2.model.PeopleInfo;
 import dagger.Module;
 import dagger.Provides;
 
-@Module/*(includes = {BModules.class})*/
+@Module/*(includes = {BModule.class})*/
 public class PeopelModule {
 
     @Provides
